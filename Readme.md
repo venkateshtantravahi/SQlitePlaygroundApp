@@ -4,7 +4,7 @@ Welcome to the SQLite Playground, a versatile platform for managing and
 exploring SQLite databases. This tool is designed to accommodate both novice users 
 and seasoned database professionals.
 
-checkout_live Website Here: 
+checkout_live Website Here: <a href='https://sqlitplayground.streamlit.app/', target='_blak'> clickHere </a>
 
 ## Comprehensive Features
 

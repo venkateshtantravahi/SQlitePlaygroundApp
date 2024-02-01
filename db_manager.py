@@ -4,12 +4,12 @@
 
 import sqlite3
 import os
-from typing import Any
+from typing import Any, Union
 
 from eralchemy2 import render_er
 
 
-def sql_executor(raw_code: str, db_name: str) -> tuple[list[Any], list[Any]] | tuple[list[Any], str] | str:
+def sql_executor(raw_code: str, db_name: str) -> Union[tuple[list[Any], list[Any]], tuple[list[Any], str], str]:
     """
     Execute SQL queries and return results or confirmation messages.
 
